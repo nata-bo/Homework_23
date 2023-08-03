@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App/App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from 'react-router-dom';
+import {  HashRouter } from 'react-router-dom';
 import MyApp from './MyApp/MyApp';
 
 const root = ReactDOM.createRoot(
@@ -11,10 +11,10 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   //<React.StrictMode>
-  <BrowserRouter>
+  <HashRouter>
       {/* <App /> */}
       <MyApp/>
-  </BrowserRouter>
+  </HashRouter>
    
   //</React.StrictMode>
 );
